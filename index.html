@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casos de Éxito en Negligencias Médicas | Bley Abogados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- ====================================================== -->
+    <!-- INICIO: SCHEMA JSON-LD PARA E-E-A-T -->
+    <!-- ====================================================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Bley Abogados",
+      "description": "Abogadas especialistas en negligencias médicas con casos de éxito demostrados. Ofrecemos asesoramiento y defensa a pacientes y familias para conseguir la máxima indemnización.",
+      "url": "https://bleyabogados.es/",
+      "telephone": "+34913609722",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de Bravo Murillo, 297, Portal 1 Escalera B - 1ºB, Tetuán",
+        "addressLocality": "Madrid",
+        "postalCode": "28020",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4613985,
+        "longitude": -3.6984209
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "50"
+      },
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPCAvOEHOGPq8AfWIUK7tsut_oJvwzioAU2Mkbq",
+      "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJE_A4iNUpQg0R89P7PMeaBoc",
+      "sameAs": [
+        "https://bleyabogados.es/"
+      ]
+    }
+    </script>
+    <!-- ====================================================== -->
+    <!-- FIN: SCHEMA JSON-LD -->
+    <!-- ====================================================== -->
+
+    <style>
+        /* --- VARIABLES DE DISEÑO Y RESET --- */
+        :root {
+            --font-heading: 'Playfair Display', serif;
+            --font-body: 'Lato', sans-serif;
+            --color-primary: #003366; /* Azul oscuro corporativo */
+            --color-text: #2c3e50; /* Gris oscuro/azulado */
+            --color-background: #f4f6f8; /* Gris muy claro */
+            --color-paper: #ffffff;
+            --color-border: #e1e5e8;
+            --color-accent: #b49b6b; /* Un toque dorado sutil */
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-body); line-height: 1.8; color: var(--color-text); background-color: var(--color-background); font-size: 16px; }
+
+        /* --- CONTENEDOR PRINCIPAL ESTILO DOCUMENTO --- */
+        .document-container { max-width: 960px; margin: 40px auto; padding: 50px 70px; background-color: var(--color-paper); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: 1px solid var(--color-border); }
+
+        /* --- CABECERA Y TÍTULOS --- */
+        header { text-align: center; margin-bottom: 50px; border-bottom: 2px solid var(--color-primary); padding-bottom: 30px; }
+        h1 { font-family: var(--font-heading); font-size: 2.8rem; color: var(--color-primary); margin-bottom: 15px; }
+        header p { font-size: 1.1rem; color: #555; max-width: 700px; margin: 0 auto; }
+        h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--color-primary); margin-top: 60px; margin-bottom: 30px; border-bottom: 1px solid var(--color-border); padding-bottom: 15px; }
+
+        /* --- CONTENIDO DE INTRODUCCIÓN --- */
+        .intro-content p { margin-bottom: 1.5em; font-size: 1.05rem; }
+
+        /* --- LISTA DE CASOS --- */
+        .case-list { list-style: none; padding: 0; }
+        .case-item { display: flex; justify-content: space-between; align-items: center; padding: 20px 10px; border-bottom: 1px solid var(--color-border); transition: background-color 0.3s ease; }
+        .case-item:hover { background-color: #fcfcfc; }
+        .case-item .description { flex: 1; padding-right: 20px; }
+        .case-item .amount { font-size: 1.3rem; font-weight: 700; color: var(--color-primary); white-space: nowrap; min-width: 120px; text-align: right; }
+        .case-item.destacado .amount { color: var(--color-accent); font-size: 1.5rem; }
+        .case-item.destacado .description { font-weight: 700; }
+
+        /* --- SECCIÓN DE CONTACTO (CTA) --- */
+        .cta-section { text-align: center; margin-top: 60px; padding: 40px; background-color: #f9fafb; border: 1px solid var(--color-border); }
+        .cta-section p { margin-bottom: 25px; font-size: 1.1rem; }
+        .cta-button { display: inline-block; background-color: var(--color-primary); color: var(--color-paper); padding: 15px 40px; font-size: 1rem; font-weight: bold; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease, transform 0.2s ease; }
+        .cta-button:hover { background-color: #004a8d; transform: translateY(-2px); }
+
+        /* --- NUEVA SECCIÓN: UBICACIÓN Y MAPA --- */
+        .contact-map-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: start; }
+        .contact-details p { margin-bottom: 1.2em; }
+        .contact-details strong { color: var(--color-primary); display: block; margin-bottom: 4px; font-size: 1.1rem; }
+        .contact-details a { color: var(--color-text); text-decoration: none; }
+        .contact-details a:hover { text-decoration: underline; }
+        .hours-list { list-style: none; padding: 0; }
+        .hours-list li { display: flex; justify-content: space-between; padding: 4px 0; }
+        .map-container iframe { 
+    width: 100%; 
+    height: 460px; /* <<< Cambiado a 600px de altura */
+    border: 1px solid var(--color-border); 
+    border-radius: 5px; 
+}
+    
+        /* --- RESPONSIVIDAD --- */
+        @media (max-width: 1024px) {
+            .document-container {
+                margin: 20px auto;
+                padding: 40px 50px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .document-container {
+                margin: 0;
+                padding: 30px 25px;
+                border: none;
+                box-shadow: none;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .case-item {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 15px 5px;
+            }
+
+            .case-item .amount {
+                text-align: left;
+                margin-top: 8px;
+                padding: 4px 10px;
+                background-color: var(--color-background);
+                border-radius: 4px;
+            }
+             .case-item.destacado .amount {
+                background-color: #fffaf0;
+             }
+        }
+
+    </style>
+      <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Bley Abogados",
+      "description": "Abogadas especialistas en negligencias médicas con casos de éxito demostrados. Ofrecemos asesoramiento y defensa a pacientes y familias para conseguir la máxima indemnización.",
+      "url": "https://bleyabogados.es/",
+      "telephone": "+34913609722",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de Bravo Murillo, 297, Portal 1 Escalera B - 1ºB, Tetuán",
+        "addressLocality": "Madrid",
+        "postalCode": "28020",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4613985,
+        "longitude": -3.6984209
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "50"
+      },
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPCAvOEHOGPq8AfWIUK7tsut_oJvwzioAU2Mkbq",
+      "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJE_A4iNUpQg0R89P7PMeaBoc",
+      "sameAs": [
+        "https://bleyabogados.es/"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <div class="document-container">
+
+        <header>
+            <h1>Casos de Éxito en Negligencias Médicas</h1>
+            <p>Casos de éxito, sentencias y acuerdos extrajudiciales por negligencia médica en los que han trabajado nuestras abogadas.</p>
+        </header>
+
+        <main>
+ <section id="introduccion" class="intro-content">
+                <p>Con una trayectoria consolidada ayudando a pacientes y familias, comprendemos que enfrentar una negligencia médica es un proceso complejo y abrumador. Por ello, nuestro compromiso inquebrantable es ofrecer una guía legal experta y un acompañamiento humano desde el primer momento, garantizando una total transparencia en cada paso. Abordamos cada situación con la dedicación que merece, realizando un análisis profundo y personalizado para defender sus derechos y asegurar la máxima indemnización posible, conscientes de lo que significa para su futuro y el de su familia. Los casos de éxito que presentamos a continuación son la prueba tangible de nuestra especialización y de los resultados reales que hemos logrado para nuestros clientes.</p>
+            </section>
+
+  <section id="casos-destacados">
+    <h2>Resoluciones destacadas</h2>
+    <div class="case-list">
+        <article class="case-item destacado"><span class="description">Responsabilidad médica por tratamiento farmacológico prolongado con efectos adversos graves</span><span class="amount">689.919 €</span></article>
+        <article class="case-item destacado"><span class="description">Compensación por paraplejia derivada de intervención lumbar</span><span class="amount">625.045 €</span></article>
+        <article class="case-item destacado"><span class="description">Error en la dosificación de anticoagulantes con graves consecuencias</span><span class="amount">575.000 €</span></article>
+        <article class="case-item destacado"><span class="description">Secuelas permanentes por diagnóstico fallido de trombosis cerebral</span><span class="amount">504.798 €</span></article>
+        <article class="case-item destacado"><span class="description">Amputación evitable derivada de isquemia aguda no tratada adecuadamente</span><span class="amount">500.000 €</span></article>
+        <article class="case-item destacado"><span class="description">Responsabilidad sanitaria en complicaciones postoperatorias de neurocirugía</span><span class="amount">497.876 €</span></article>
+        <article class="case-item destacado"><span class="description">Deficiente información en tratamiento de reproducción asistida que causa perjuicio grave</span><span class="amount">407.198 €</span></article>
+        <article class="case-item destacado"><span class="description">Demora diagnóstica y manejo inadecuado en tratamiento anticoagulante</span><span class="amount">400.000 €</span></article>
+        <article class="case-item destacado"><span class="description">Falta de diagnóstico precoz de cáncer de vejiga que deriva en fallecimiento</span><span class="amount">385.135 €</span></article>
+        <article class="case-item destacado"><span class="description">Daño por mala praxis en intervención con láser verde</span><span class="amount">340.000 €</span></article>
+        <article class="case-item destacado"><span class="description">Indemnización por diagnóstico tardío de hematoma con secuelas</span><span class="amount">320.000 €</span></article>
+        <article class="case-item destacado"><span class="description">Demora en la detección de cáncer de mama</span><span class="amount">300.000 €</span></article>
+    </div>
+</section>
+
+<section id="ultimos-casos">
+    <h2>Resultados recientes</h2>
+    <div class="case-list">
+        <article class="case-item"><span class="description">Sentencia favorable por administración incorrecta de medicación</span><span class="amount">220.000 €</span></article>
+        <article class="case-item"><span class="description">Responsabilidad médica en nefrectomía radical</span><span class="amount">206.600 €</span></article>
+        <article class="case-item"><span class="description">Error diagnóstico en urgencias hospitalarias</span><span class="amount">200.000 €</span></article>
+        <article class="case-item"><span class="description">Indemnización por técnica quirúrgica inadecuada</span><span class="amount">200.000 €</span></article>
+        <article class="case-item"><span class="description">Retraso en detección de cáncer de mama</span><span class="amount">187.000 €</span></article>
+        <article class="case-item"><span class="description">Fallo en servicios de emergencia con resultado lesivo</span><span class="amount">180.000 €</span></article>
+        <article class="case-item"><span class="description">Diagnóstico tardío de tumor en oído</span><span class="amount">180.000 €</span></article>
+        <article class="case-item"><span class="description">Fallecimiento por pancreatitis aguda no diagnosticada a tiempo</span><span class="amount">170.000 €</span></article>
+        <article class="case-item"><span class="description">Condena al Servicio Canario de Salud por error diagnóstico</span><span class="amount">169.544 €</span></article>
+        <article class="case-item"><span class="description">Muerte por neumonía no detectada: compensación a familiares</span><span class="amount">150.000 €</span></article>
+        <article class="case-item"><span class="description">Negligencia en reposición brusca de sodio</span><span class="amount">150.000 €</span></article>
+        <article class="case-item"><span class="description">Demora en diagnóstico de cáncer de mama con reconocimiento judicial</span><span class="amount">149.210 €</span></article>
+        <article class="case-item"><span class="description">Error informativo en reproducción asistida</span><span class="amount">145.362 €</span></article>
+        <article class="case-item"><span class="description">Demora en diagnóstico de cáncer de ovario</span><span class="amount">145.000 €</span></article>
+        <article class="case-item"><span class="description">Complicaciones por diagnóstico tardío de artritis séptica</span><span class="amount">144.000 €</span></article>
+        <article class="case-item"><span class="description">Cesárea retrasada con perjuicios acreditados</span><span class="amount">140.000 €</span></article>
+        <article class="case-item"><span class="description">Retraso en atención obstétrica con asfixia fetal</span><span class="amount">140.000 €</span></article>
+        <article class="case-item"><span class="description">Error en diagnóstico de fractura de radio</span><span class="amount">135.000 €</span></article>
+        <article class="case-item"><span class="description">Falta de vigilancia en residencia geriátrica</span><span class="amount">120.930 €</span></article>
+        <article class="case-item"><span class="description">Diagnóstico tardío de infarto</span><span class="amount">120.000 €</span></article>
+        <article class="case-item"><span class="description">Demora en diagnóstico de cáncer de mama por negligencia</span><span class="amount">115.000 €</span></article>
+        <article class="case-item"><span class="description">Necrosis del glande tras intervención pediátrica</span><span class="amount">112.114 €</span></article>
+        <article class="case-item"><span class="description">Complicaciones tras mastopexia por mala praxis</span><span class="amount">100.000 €</span></article>
+        <article class="case-item"><span class="description">Negligencia ginecológica con daños relevantes</span><span class="amount">100.000 €</span></article>
+        <article class="case-item"><span class="description">Daños graves tras cirugía renal prolongada</span><span class="amount">98.000 €</span></article>
+        <article class="case-item"><span class="description">Error diagnóstico de meningioma</span><span class="amount">95.078 €</span></article>
+        <article class="case-item"><span class="description">Maniobra no permitida en parto con responsabilidad médica</span><span class="amount">85.000 €</span></article>
+        <article class="case-item"><span class="description">Migraña vestibular por administración incorrecta de medicación</span><span class="amount">80.000 €</span></article>
+        <article class="case-item"><span class="description">Secuelas irreversibles tras cirugía de rodilla</span><span class="amount">70.000 €</span></article>
+        <article class="case-item"><span class="description">Retraso diagnóstico de neumonía</span><span class="amount">65.000 €</span></article>
+        <article class="case-item"><span class="description">Fallecimiento por falta de atención en urgencias domiciliarias</span><span class="amount">61.926 €</span></article>
+        <article class="case-item"><span class="description">Intervención quirúrgica pese a embarazo no detectado</span><span class="amount">60.000 €</span></article>
+        <article class="case-item"><span class="description">Retraso en diagnóstico de cáncer de cuello uterino</span><span class="amount">60.000 €</span></article>
+        <article class="case-item"><span class="description">Demora diagnóstica de condrosarcoma</span><span class="amount">60.000 €</span></article>
+        <article class="case-item"><span class="description">Pérdida testicular por mala práctica en urología</span><span class="amount">53.457 €</span></article>
+        <article class="case-item"><span class="description">Fallecimiento por negligencia médica: sentencia favorable</span><span class="amount">50.927 €</span></article>
+        <article class="case-item"><span class="description">Negligencia en cirugía estética mamaria</span><span class="amount">50.000 €</span></article>
+        <article class="case-item"><span class="description">Responsabilidad por mala praxis en absceso anal</span><span class="amount">50.000 €</span></article>
+        <article class="case-item"><span class="description">Error en implantología dental</span><span class="amount">46.000 €</span></article>
+        <article class="case-item"><span class="description">Pérdida de oportunidad en diagnóstico renal</span><span class="amount">45.000 €</span></article>
+        <article class="case-item"><span class="description">Selección incorrecta de donantes en tratamiento de fertilidad</span><span class="amount">45.000 €</span></article>
+        <article class="case-item"><span class="description">Secuelas tras liposucción con mala praxis</span><span class="amount">44.000 €</span></article>
+        <article class="case-item"><span class="description">Mala práctica en liposucción abdominal</span><span class="amount">42.726 €</span></article>
+        <article class="case-item"><span class="description">Daños en cirugía de cornetes</span><span class="amount">40.000 €</span></article>
+        <article class="case-item"><span class="description">Olvido de material quirúrgico tras cesárea</span><span class="amount">34.575 €</span></article>
+        <article class="case-item"><span class="description">Responsabilidad por intervención de rodilla con secuelas</span><span class="amount">30.000 €</span></article>
+        <article class="case-item"><span class="description">Ligamentoplastia defectuosa con daños permanentes</span><span class="amount">30.000 €</span></article>
+        <article class="case-item"><span class="description">Daños en tratamiento de ortodoncia</span><span class="amount">25.000 €</span></article>
+        <article class="case-item"><span class="description">Diagnóstico erróneo de cáncer de mama con cirugía innecesaria</span><span class="amount">24.000 €</span></article>
+        <article class="case-item"><span class="description">Producto fraudulento en clínica estética: falso ácido hialurónico</span><span class="amount">17.000 €</span></article>
+        <article class="case-item"><span class="description">Aguja quirúrgica olvidada durante intervención</span><span class="amount">10.500 €</span></article>
+    </div>
+</section>
+        </main>
+            <section id="sobre-bley-abogados">
+                <h2>Sobre Bley Abogados</h2>
+                <p><strong>Bley Abogados</strong> es un despacho de abogadas altamente especializado en la defensa de pacientes y familias afectadas por negligencias médicas. Nuestra firma ha dedicado años a conseguir justicia y la máxima indemnización para quienes han sufrido las consecuencias de una mala praxis.</p>
+                <p>Todos los casos de éxito y las cuantías económicas presentadas en este documento son el resultado real del trabajo, la dedicación y el conocimiento profundo de nuestro equipo. Cada cifra representa una historia en la que hemos luchado para que la voz de nuestros clientes fuera escuchada y su daño reparado.</p>
+                <p>Nuestra filosofía combina la rigurosidad jurídica con un trato cercano y humano, ofreciendo total transparencia en cada paso del proceso. Si desea conocer más sobre nuestro equipo y metodología, le invitamos a visitar nuestra web oficial: <a href="https://bleyabogados.es" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: bold; text-decoration: none;">bleyabogados.es</a>.</p>
+            </section>
+            <section id="ubicacion-contacto">
+                <h2>Ubicación y Horario</h2>
+                <div class="contact-map-grid">
+                    <div class="contact-details">
+                        <p>
+                            <strong>Dirección</strong>
+                            <a href="https://www.google.com/maps/place/?q=place_id:ChIJE_A4iNUpQg0R89P7PMeaBoc" target="_blank" rel="noopener noreferrer">
+                                C. de Bravo Murillo, 297, Portal 1<br>
+                                Escalera B - 1ºB, Tetuán, 28020 Madrid
+                            </a>
+                        </p>
+                        <p>
+                            <strong>Teléfono</strong>
+                            <a href="tel:+34913609722">+34 913 60 97 22</a>
+                        </p>
+                        <p>
+                            <strong>Horario de Atención</strong>
+                            <ul class="hours-list">
+                                <li><span>Lunes</span> <span>9:00 – 19:00</span></li>
+                                <li><span>Martes</span> <span>9:00 – 19:00</span></li>
+                                <li><span>Miércoles</span> <span>9:00 – 19:00</span></li>
+                                <li><span>Jueves</span> <span>9:00 – 19:00</span></li>
+                                <li><span>Viernes</span> <span>9:00 – 19:00</span></li>
+                                <li><span>Sábado</span> <span>Cerrado</span></li>
+                                <li><span>Domingo</span> <span>Cerrado</span></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.40578632669!2d-3.700995823565552!3d40.46559797143166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229d58838f013%3A0x87069ac73cfbd3f3!2sBley%20Abogados!5e0!3m2!1ses!2ses" 
+                            loading="lazy" 
+                            allowfullscreen="" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        <footer>
+            <p>&copy; 2025 Despacho de Abogadas Especialistas en Negligencia Médica. Todos los derechos reservados.</p>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
